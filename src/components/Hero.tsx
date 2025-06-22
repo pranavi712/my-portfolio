@@ -15,17 +15,13 @@ const Hero = () => {
           </p>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             Passionate about AI, computer vision, and innovative software solutions. 
-            Currently pursuing B.Tech in CSE with IoT at Jain University with 8.55 CGPA.
+            Currently pursuing B.Tech in CSE with IoT at Jain University.
           </p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <Button size="lg" className="group bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-            <Mail className="w-4 h-4 mr-2" />
-            Contact Me
-          </Button>
           <a
-  href="/resume.pdf" // Replace with your actual file path or URL
+  href="https://drive.google.com/file/d/1843DRdvB3kJ6Qiidm4A_wsr6FKxwa8Bj/view?usp=sharing" // Replace with your actual file path or URL
   download // Optional: prompts download instead of opening
   target="_blank" // Optional: opens in a new tab
   rel="noopener noreferrer"
@@ -35,17 +31,7 @@ const Hero = () => {
     Download Resume
   </Button>
 </a>
-        </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm text-gray-600">
-          <div className="flex items-center gap-2 bg-white/70 px-3 py-2 rounded-full">
-            <Phone className="w-4 h-4 text-green-600" />
-            +91 9391508096
-          </div>
-          <div className="flex items-center gap-2 bg-white/70 px-3 py-2 rounded-full">
-            <Mail className="w-4 h-4 text-blue-600" />
-            pranavichalla6677@gmail.com
-          </div>
         </div>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

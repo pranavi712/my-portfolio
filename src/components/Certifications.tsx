@@ -39,12 +39,6 @@ const Certifications = () => {
       skills: ["Linux", "System Administration", "OS Concepts", "Network Fundamentals"]
     }
   ];
-
-  const achievements = [
-    "1st Prize in National Mathematics Olympiad",
-    "1st Prize in National English Olympiad"
-  ];
-
   return (
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
@@ -104,18 +98,6 @@ const Certifications = () => {
           ))}
         </div>
 
-        {/* Achievements Section */}
-        <div className="text-center">
-          <h3 className="text-2xl font-semibold mb-6">Academic Achievements</h3>
-          <div className="flex flex-wrap justify-center gap-4">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full">
-                <Award className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium">{achievement}</span>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -10,7 +10,6 @@ const Education = () => {
       institution: "Jain University",
       specialization: "Computer Science Engineering with Internet of Things",
       duration: "2022 - 2026",
-      grade: "CGPA: 8.55",
       status: "Currently Pursuing"
     },
     {
@@ -18,7 +17,6 @@ const Education = () => {
       institution: "Sri Chaitanya Junior College",
       specialization: "Mathematics, Physics, Chemistry (MPC)",
       duration: "2020 - 2022",
-      grade: "Percentage: 96.80%",
       status: "Completed"
     }
   ];
@@ -65,7 +63,6 @@ const Education = () => {
               <CardContent>
                 <div className="flex items-center gap-2">
                   <Award className="w-5 h-5 text-primary" />
-                  <span className="font-semibold text-lg">{edu.grade}</span>
                 </div>
               </CardContent>
             </Card>

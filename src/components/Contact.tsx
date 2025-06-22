@@ -8,20 +8,20 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9391508096",
+      value: "",
       href: "tel:+919391508096"
     },
     {
       icon: Mail,
       label: "Email",
-      value: "pranavichalla6677@gmail.com",
+      value: "",
       href: "mailto:pranavichalla6677@gmail.com"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect on LinkedIn",
-      href: "#"
+      href: "https://www.linkedin.com/in/challa-pranavi-9a2138282/"
     },
     {
       icon: Github,
