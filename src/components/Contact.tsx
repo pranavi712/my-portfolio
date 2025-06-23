@@ -19,7 +19,7 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect on LinkedIn",
-      href: "#"
+      href: "https://www.linkedin.com/in/challa-pranavi-9a2138282/"
     },
     {
       icon: Github,
